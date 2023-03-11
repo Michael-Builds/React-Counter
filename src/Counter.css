@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--main:#9ad1e3;
+}
+
+.main {
+    background : var(--main);
+    height: 100vh;
+    width: 100%;
+}
+
+.main-header{
+    background : #eee;
+    padding: 30px;
+}
+
+.main-header > ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+   margin: 0 auto;
+}
+
+.main-header > ul >li {
+outline: none;
+text-decoration:   none;
+list-style: none;
+font-size: 22px;
+cursor: pointer;
+}
+.main-header > ul >li:hover{
+    color: var(--main);
+    transition: 0.5s;
+}
+
+.counter_parent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.counter_parent h3{
+    font-size: 30px;
+}
+
+.counter_parent button{
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
